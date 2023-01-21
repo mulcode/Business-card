@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+
+}
+.app-container{
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 417px;
+  height: 1000px;
+  background-color: rgb(7, 22, 43);
+}
+.app-container-two{
+  background-color: rgb(16, 29, 37);
+  margin: 20px auto;
+  width: 317px;
+}
+.main-container{
+  width: 317px;
+  height: 600px;
+}
+.main-h3{
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 0px 10px 0px;
+}
+.main-h4{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: rgb(136, 235, 6);
+}
+.main-span{
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+.main-button{
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  border: none;
+  outline: none;
+}
+.btn-class{
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
+}
+.btn-email{
+  background-color: white;
+  color: black;
+  display: flex;
+}
+.btn-linkedin{
+  background-color: rgb(114, 18, 204);
+  color: white;
+  display: flex;
+}
+.email{
+  height: 20px;
+  margin: 3px;
+  margin-left: 20px;
+  padding: 5px;
+}
+.linked{
+  height: 20px;
+  margin: 3px;
+  padding: 5px;
+  margin-right: 22px;
+}
+.about-interest{
+  width: 247px;
+  height: 246px;
+  font-size: 12px;
+  line-height: 1.08rem;
+  padding: 10px;
+  padding-bottom: 4px;
+  margin: 5px auto;
+ 
+}
+.about-interest >p{
+  font-size: 11px;
+  text-align: justify;
+}
+.about-interest > h3{
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+.footer-content{
+  width: 317px;
+  height: 55px;
+  background-color: rgb(17, 11, 3);
+}
